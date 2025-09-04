@@ -9,6 +9,7 @@ C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.pdb
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Humanizer.dll
+C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -153,6 +154,7 @@ C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.AssemblyInfo.cs
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.csproj.CoreCompileInputs.cache
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.sourcelink.json
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\scopedcss\bundle\Arch.styles.css
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\staticwebassets.development.json

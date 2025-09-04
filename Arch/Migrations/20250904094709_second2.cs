@@ -4,10 +4,10 @@
 
 namespace Arch.Migrations
 {
-    /// <inheritdoc />
+   
     public partial class second2 : Migration
     {
-        /// <inheritdoc />
+    
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.RenameColumn(
@@ -16,7 +16,7 @@ namespace Arch.Migrations
                 newName: "Image");
         }
 
-        /// <inheritdoc />
+  
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.RenameColumn(

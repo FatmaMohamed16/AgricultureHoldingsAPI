@@ -1,8 +1,13 @@
-﻿namespace AmlakState.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AmlakState.DTO
 {
     public class LoginDto
     {
-        public string Username { get; set; }
+        [Required]
+        public string UserName { get; set; }
+
+        [Required]
         public string Password { get; set; }
     }
 }

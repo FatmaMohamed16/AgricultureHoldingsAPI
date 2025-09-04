@@ -14,12 +14,12 @@ namespace Arch.Models
         public string Password { get; set; }
         public bool IsAdmin { get; set; }
 
-        public int MarkazId { get; set; }
+        public int? MarkazId { get; set; }
         public Markaz? Markaz { get; set; }
 
 
 
-        public int UserRoleId { get; set; }
+        public int? UserRoleId { get; set; }
         [ForeignKey("UserRoleId")]
         public virtual Role? UserRole { get; set; }
 
