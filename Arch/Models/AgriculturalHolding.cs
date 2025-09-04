@@ -56,8 +56,8 @@ namespace AmlakState.Models
 
         public string? Association { get; set; }
 
-        public int UserId { get; set; }
-        public User? User { get; set; }
+        //public int UserId { get; set; }
+        //public User? User { get; set; }
 
 
         public ICollection<PropertyCoordinate> PropertyCoordinates { get; set; } = new List<PropertyCoordinate>();

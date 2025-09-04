@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-[Authorize]
+// قم بإزالة [Authorize] إذا كنت تريد أن يكون هذا الـ endpoint عامًا
 [ApiController]
 [Route("api/[controller]")]
 public class AgriculturalHoldingsController : ControllerBase
@@ -28,18 +28,9 @@ public class AgriculturalHoldingsController : ControllerBase
             return BadRequest(ModelState);
         }
 
-        var userIdString = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-        if (string.IsNullOrEmpty(userIdString))
-        {
-            return Unauthorized("المستخدم غير مصادق عليه.");
-        }
+        // تم حذف كل الكود المتعلق بالـ userId
 
-        if (!int.TryParse(userIdString, out int userId))
-        {
-            return Unauthorized("صيغة معرف المستخدم غير صحيحة.");
-        }
-
-        List<Attachments> attachmentList = new List<Attachments>();
+        List<Attachments> attachmentList = new List<Attachments>();
         if (agriculturalHoldingDto.Attachments != null && agriculturalHoldingDto.Attachments.Any())
         {
             var uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "uploads");
@@ -89,10 +80,9 @@ public class AgriculturalHoldingsController : ControllerBase
             Association = agriculturalHoldingDto.Association,
             MarkazId = agriculturalHoldingDto.MarkazId,
             SourceOfOwnershipId = agriculturalHoldingDto.SourceOfOwnershipId,
-            UserId = userId,
             PropertyCoordinates = agriculturalHoldingDto.PropertyCoordinates?
-                                    .Select(pc => new PropertyCoordinate { X = pc.X, Y = pc.Y })
-                                    .ToList(),
+                      .Select(pc => new PropertyCoordinate { X = pc.X, Y = pc.Y })
+                      .ToList(),
             Attachments = attachmentList
         };
 
@@ -106,7 +96,7 @@ public class AgriculturalHoldingsController : ControllerBase
         {
             if (ex.InnerException?.Message.Contains("FOREIGN KEY constraint") == true)
             {
-                return BadRequest("خطأ في البيانات المدخلة: معرف المستخدم (UserId) أو معرف المركز (MarkazId) أو معرف مصدر الملكية (SourceOfOwnershipId) غير موجود.");
+                return BadRequest("خطأ في البيانات المدخلة: معرف المركز (MarkazId) أو معرف مصدر الملكية (SourceOfOwnershipId) غير موجود.");
             }
             return StatusCode(500, "حدث خطأ في قاعدة البيانات. يرجى مراجعة البيانات.");
         }

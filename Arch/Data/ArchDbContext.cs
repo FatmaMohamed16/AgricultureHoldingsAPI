@@ -24,10 +24,7 @@ namespace AmlakState.Data
             base.OnModelCreating(modelBuilder);
 
           
-            modelBuilder.Entity<AgriculturalHolding>()
-                .HasOne(a => a.User)
-                .WithMany()
-                .OnDelete(DeleteBehavior.NoAction);
+           
 
             modelBuilder.Entity<User>()
                .HasOne(u => u.Markaz)
