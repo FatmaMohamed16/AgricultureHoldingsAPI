@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.3mpppporl0.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3mpppporl0"},{"Name":"integrity","Value":"sha256-60qs\u002Bla0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="},{"Name":"label","Value":"_content/Arch/uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4801"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002260qs\u002Bla0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:39:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-60qs\u002Bla0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4801"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002260qs\u002Bla0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:39:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"846933kney"},{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="},{"Name":"label","Value":"_content/Arch/uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:25:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:25:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"846933kney"},{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="},{"Name":"label","Value":"_content/Arch/uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:25:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:25:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cEPTekfxW\u002BJOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3161669"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022cEPTekfxW\u002BJOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:36:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.st8vpvfaul.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"st8vpvfaul"},{"Name":"integrity","Value":"sha256-cEPTekfxW\u002BJOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="},{"Name":"label","Value":"_content/Arch/uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3161669"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022cEPTekfxW\u002BJOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:36:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"846933kney"},{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="},{"Name":"label","Value":"_content/Arch/uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:24:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Arch/uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2614977"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 04 Sep 2025 13:24:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

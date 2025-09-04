@@ -3,6 +3,7 @@ using AmlakState.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Arch.Migrations
 {
     [DbContext(typeof(ArchDbContext))]
-    partial class ArchDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250904115536_four")]
+    partial class four
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -142,27 +145,6 @@ namespace Arch.Migrations
                     b.ToTable("PropertyCoordinates");
                 });
 
-            modelBuilder.Entity("Arch.Models.Attachments", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
-
-                    b.Property<int?>("AgriculturalHoldingId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Attachment")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("AgriculturalHoldingId");
-
-                    b.ToTable("Attachments");
-                });
-
             modelBuilder.Entity("Arch.Models.Madina_Maglas", b =>
                 {
                     b.Property<int>("ID")
@@ -183,6 +165,27 @@ namespace Arch.Migrations
                     b.HasIndex("MarkazId");
 
                     b.ToTable("Madina_Maglas");
+                });
+
+            modelBuilder.Entity("Arch.Models.Photos", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<int?>("AgriculturalHoldingId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("AgriculturalHoldingId");
+
+                    b.ToTable("Photos");
                 });
 
             modelBuilder.Entity("Arch.Models.Role", b =>
@@ -287,15 +290,6 @@ namespace Arch.Migrations
                     b.Navigation("AgriculturalHolding");
                 });
 
-            modelBuilder.Entity("Arch.Models.Attachments", b =>
-                {
-                    b.HasOne("AmlakState.Models.AgriculturalHolding", "AgriculturalHolding")
-                        .WithMany("Attachments")
-                        .HasForeignKey("AgriculturalHoldingId");
-
-                    b.Navigation("AgriculturalHolding");
-                });
-
             modelBuilder.Entity("Arch.Models.Madina_Maglas", b =>
                 {
                     b.HasOne("AmlakState.Models.Markaz", "Markaz")
@@ -305,6 +299,15 @@ namespace Arch.Migrations
                         .IsRequired();
 
                     b.Navigation("Markaz");
+                });
+
+            modelBuilder.Entity("Arch.Models.Photos", b =>
+                {
+                    b.HasOne("AmlakState.Models.AgriculturalHolding", "AgriculturalHolding")
+                        .WithMany("Photos")
+                        .HasForeignKey("AgriculturalHoldingId");
+
+                    b.Navigation("AgriculturalHolding");
                 });
 
             modelBuilder.Entity("Arch.Models.User", b =>
@@ -325,7 +328,7 @@ namespace Arch.Migrations
 
             modelBuilder.Entity("AmlakState.Models.AgriculturalHolding", b =>
                 {
-                    b.Navigation("Attachments");
+                    b.Navigation("Photos");
 
                     b.Navigation("PropertyCoordinates");
                 });

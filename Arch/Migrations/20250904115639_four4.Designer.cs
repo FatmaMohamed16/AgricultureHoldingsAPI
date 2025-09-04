@@ -3,6 +3,7 @@ using AmlakState.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Arch.Migrations
 {
     [DbContext(typeof(ArchDbContext))]
-    partial class ArchDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250904115639_four4")]
+    partial class four4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -153,14 +156,14 @@ namespace Arch.Migrations
                     b.Property<int?>("AgriculturalHoldingId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Attachment")
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
                     b.HasIndex("AgriculturalHoldingId");
 
-                    b.ToTable("Attachments");
+                    b.ToTable("Photos");
                 });
 
             modelBuilder.Entity("Arch.Models.Madina_Maglas", b =>
@@ -290,7 +293,7 @@ namespace Arch.Migrations
             modelBuilder.Entity("Arch.Models.Attachments", b =>
                 {
                     b.HasOne("AmlakState.Models.AgriculturalHolding", "AgriculturalHolding")
-                        .WithMany("Attachments")
+                        .WithMany("Photos")
                         .HasForeignKey("AgriculturalHoldingId");
 
                     b.Navigation("AgriculturalHolding");
@@ -325,7 +328,7 @@ namespace Arch.Migrations
 
             modelBuilder.Entity("AmlakState.Models.AgriculturalHolding", b =>
                 {
-                    b.Navigation("Attachments");
+                    b.Navigation("Photos");
 
                     b.Navigation("PropertyCoordinates");
                 });

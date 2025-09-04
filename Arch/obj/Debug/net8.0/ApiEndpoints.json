@@ -1,5 +1,121 @@
 [
   {
+    "ContainingType": "AgriculturalHoldingsController",
+    "Method": "Create",
+    "RelativePath": "api/AgriculturalHoldings/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NationalId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BuildingsCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HyazaNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NorthernBorder",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SouthernBorder",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EasternBorder",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WesternBorder",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Notes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataResourses",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ActualArea",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistedArea",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Houd",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Association",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MarkazId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SourceOfOwnershipId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PropertyCoordinates",
+        "Type": "System.Collections.Generic.List\u00601[[Arch.DTO.PropertyCoordinateDto, Arch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Attachments",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Arch.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",

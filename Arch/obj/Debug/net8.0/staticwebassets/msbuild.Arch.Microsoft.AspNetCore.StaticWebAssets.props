@@ -1,0 +1,94 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Arch</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Arch</BasePath>
+      <RelativePath>uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3mpppporl0</Fingerprint>
+      <Integrity>60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Arch</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Arch</BasePath>
+      <RelativePath>uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>846933kney</Fingerprint>
+      <Integrity>yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Arch</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Arch</BasePath>
+      <RelativePath>uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>846933kney</Fingerprint>
+      <Integrity>yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Arch</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Arch</BasePath>
+      <RelativePath>uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>st8vpvfaul</Fingerprint>
+      <Integrity>cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Arch</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Arch</BasePath>
+      <RelativePath>uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>846933kney</Fingerprint>
+      <Integrity>yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

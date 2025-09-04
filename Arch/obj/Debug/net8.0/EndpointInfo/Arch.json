@@ -5,6 +5,175 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/AgriculturalHoldings/create": {
+      "post": {
+        "tags": [
+          "AgriculturalHoldings"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "MarkazId",
+                  "Name",
+                  "NationalId",
+                  "SourceOfOwnershipId"
+                ],
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "NationalId": {
+                    "type": "string"
+                  },
+                  "PhoneNumber": {
+                    "type": "string"
+                  },
+                  "BuildingsCount": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "HyazaNumber": {
+                    "type": "string"
+                  },
+                  "NorthernBorder": {
+                    "type": "string"
+                  },
+                  "SouthernBorder": {
+                    "type": "string"
+                  },
+                  "EasternBorder": {
+                    "type": "string"
+                  },
+                  "WesternBorder": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "Notes": {
+                    "type": "string"
+                  },
+                  "DataResourses": {
+                    "type": "string"
+                  },
+                  "ActualArea": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "RegistedArea": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Houd": {
+                    "type": "string"
+                  },
+                  "Association": {
+                    "type": "string"
+                  },
+                  "MarkazId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "SourceOfOwnershipId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PropertyCoordinates": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/PropertyCoordinateDto"
+                    }
+                  },
+                  "Attachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "NationalId": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "BuildingsCount": {
+                  "style": "form"
+                },
+                "HyazaNumber": {
+                  "style": "form"
+                },
+                "NorthernBorder": {
+                  "style": "form"
+                },
+                "SouthernBorder": {
+                  "style": "form"
+                },
+                "EasternBorder": {
+                  "style": "form"
+                },
+                "WesternBorder": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "Notes": {
+                  "style": "form"
+                },
+                "DataResourses": {
+                  "style": "form"
+                },
+                "ActualArea": {
+                  "style": "form"
+                },
+                "RegistedArea": {
+                  "style": "form"
+                },
+                "Houd": {
+                  "style": "form"
+                },
+                "Association": {
+                  "style": "form"
+                },
+                "MarkazId": {
+                  "style": "form"
+                },
+                "SourceOfOwnershipId": {
+                  "style": "form"
+                },
+                "PropertyCoordinates": {
+                  "style": "form"
+                },
+                "Attachments": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auth/login": {
       "post": {
         "tags": [
@@ -56,7 +225,34 @@
           }
         },
         "additionalProperties": false
+      },
+      "PropertyCoordinateDto": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below.",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
       }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

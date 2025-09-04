@@ -1,12 +1,537 @@
 {
   "Version": 1,
-  "Hash": "Cremn21VWD00M/3Bl6duH7ul2x7VqCA/pQHV+JU4P14=",
+  "Hash": "h4EfWPWOiEs9P2yg0v1tAmgVy+JmKhECZpemfuVojb8=",
   "Source": "Arch",
   "BasePath": "_content/Arch",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Arch\\wwwroot",
+      "Source": "Arch",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "SourceId": "Arch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "RelativePath": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3mpppporl0",
+      "Integrity": "60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "SourceId": "Arch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "RelativePath": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "846933kney",
+      "Integrity": "yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "SourceId": "Arch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "RelativePath": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "846933kney",
+      "Integrity": "yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "SourceId": "Arch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "RelativePath": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "st8vpvfaul",
+      "Integrity": "cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "SourceId": "Arch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\",
+      "BasePath": "_content/Arch",
+      "RelativePath": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "846933kney",
+      "Integrity": "yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.3mpppporl0.jpg",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mpppporl0"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:39:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3161669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.st8vpvfaul.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3161669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:36:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st8vpvfaul"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:24:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:24:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    }
+  ]
 }

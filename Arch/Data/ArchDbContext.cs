@@ -13,7 +13,7 @@ namespace AmlakState.Data
         public DbSet<Markaz> Markazes { get; set; }
         public DbSet<AgriculturalHolding> AgriculturalHoldings { get; set; }
         public DbSet<PropertyCoordinate> PropertyCoordinates { get; set; }
-        public DbSet<Photos> Photos { get; set; }
+        public DbSet<Attachments> Attachments { get; set; }
         public DbSet<Madina_Maglas> Madina_Maglas { get; set; }
         public DbSet<User> User { get; set; }
         public DbSet<Role> Role { get; set; }

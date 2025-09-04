@@ -172,3 +172,5 @@ C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\refint\Arch.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.pdb
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.genruntimeconfig.cache
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\ref\Arch.dll
+C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.staticwebassets.runtime.json

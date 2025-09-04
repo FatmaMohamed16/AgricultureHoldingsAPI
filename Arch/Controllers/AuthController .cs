@@ -48,7 +48,7 @@ namespace Arch.Controllers
             return Ok(new { token });
         }
 
-
+        
 
 
         private string GenerateJwtToken(User user)
