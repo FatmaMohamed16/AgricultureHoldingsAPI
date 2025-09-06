@@ -3,8 +3,10 @@ using AmlakState.Models;
 using Arch.DTO;
 using Arch.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 [Authorize]
 [ApiController]
 [Route("api/[controller]")]
@@ -20,7 +22,129 @@ public class AgriculturalHoldingsController : ControllerBase
     }
 
 
-    [HttpPost("create")]
+
+ 
+[Authorize] // 1. Add this attribute to secure the endpoint.
+[HttpGet("GetAll")]
+public async Task<IActionResult> GetAll(
+    [FromQuery] int pageNumber = 1,
+    [FromQuery] int pageSize = 100,
+    [FromQuery] int? markazId = null,
+    [FromQuery] string? search = null)
+{
+    // Input validation
+    if (pageNumber < 1)
+    {
+        return BadRequest("رقم الصفحة يجب أن يكون أكبر من أو يساوي 1.");
+    }
+    if (pageSize < 1)
+    {
+        return BadRequest("حجم الصفحة يجب أن يكون أكبر من أو يساوي 1.");
+    }
+
+    
+    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    var userRole = User.FindFirstValue(ClaimTypes.Role);
+    var userMarkazIdClaim = User.FindFirstValue("MarkazId"); 
+
+    if (string.IsNullOrEmpty(userId))
+    {
+        return Unauthorized("المستخدم غير موجود");
+    }
+
+    
+    var query = _context.AgriculturalHoldings
+        .Include(ah => ah.Markaz)
+        .Include(ah => ah.PropertyCoordinates)
+        .Include(ah => ah.Madina_Maglas)
+        .Include(ah => ah.SourceOfOwnership)
+        .AsQueryable();
+
+    if (userRole != "Admin")
+    {
+        if (string.IsNullOrEmpty(userMarkazIdClaim))
+        {
+            return BadRequest("لا يوجد مركز مرتبط بالمستخدم");
+        }
+        var userMarkazId = int.Parse(userMarkazIdClaim);
+        query = query.Where(ah => ah.MarkazId == userMarkazId);
+    }
+    else
+    {
+        if (markazId.HasValue)
+        {
+            query = query.Where(ah => ah.MarkazId == markazId.Value);
+        }
+    }
+
+    if (!string.IsNullOrWhiteSpace(search))
+    {
+        query = query.Where(ah =>
+            (ah.Name != null && ah.Name.Contains(search)) ||
+            (ah.NationalId != null && ah.NationalId.Contains(search)) ||
+            (ah.PhoneNumber != null && ah.PhoneNumber.Contains(search)) ||
+            (ah.Address != null && ah.Address.Contains(search)) ||
+            (ah.Houd != null && ah.Houd.Contains(search)) ||
+            (ah.HyazaNumber != null && ah.HyazaNumber.Contains(search))
+        );
+    }
+
+
+    var totalItems = await query.CountAsync();
+
+    var paginatedQuery = query
+        .Skip((pageNumber - 1) * pageSize)
+        .Take(pageSize);
+
+    var items = await paginatedQuery
+        .Select(ah => new AgriculturalHoldingDTO
+        {
+            Id = ah.Id,
+            Name = ah.Name,
+            NationalId = ah.NationalId,
+            PhoneNumber = ah.PhoneNumber,
+            BuildingsCount = ah.BuildingsCount ?? 0,
+            HyazaNumber = ah.HyazaNumber,
+            NorthernBorder = ah.NorthernBorder,
+            SouthernBorder = ah.SouthernBorder,
+            EasternBorder = ah.EasternBorder,
+            WesternBorder = ah.WesternBorder,
+            Description = ah.Description,
+            MarkazId = ah.MarkazId,
+            MarkazName = ah.Markaz.Name,
+            Address = ah.Address,
+            Notes = ah.Notes,
+            DataResourses = ah.DataResourses,
+            Faddan = ah.Faddan ?? 0,
+            Qirat = ah.Qirat ?? 0,
+            Sahm = ah.Sahm ?? 0,
+            ActualAreaInSquareMeters = ah.ActualAreaInSquareMeters ?? 0,
+            RegistedArea = ah.RegistedArea ?? 0,
+            MadinaMaglasName = ah.Madina_Maglas.Name,
+            Houd = ah.Houd,
+            Association = ah.Association,
+            SourceOfOwnershipName = ah.SourceOfOwnership.Name,
+            Coordinates = ah.PropertyCoordinates
+                .Select(c => new PropertyCoordinateDto
+                {
+                    X = c.X,
+                    Y = c.Y
+                }).ToList()
+        })
+        .ToListAsync();
+
+    var result = new
+    {
+        data = items,
+        totalItems = totalItems
+    };
+
+    return Ok(result);
+}
+
+
+
+[HttpPost("create")]
     public async Task<IActionResult> Create([FromForm] AgriculturalHoldingCreateDto agriculturalHoldingDto)
     {
         if (!ModelState.IsValid)
