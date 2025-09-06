@@ -5,8 +5,7 @@ using Arch.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
-// قم بإزالة [Authorize] إذا كنت تريد أن يكون هذا الـ endpoint عامًا
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class AgriculturalHoldingsController : ControllerBase
@@ -28,7 +27,7 @@ public class AgriculturalHoldingsController : ControllerBase
             return BadRequest(ModelState);
         }
 
-        // تم حذف كل الكود المتعلق بالـ userId
+
 
         List<Attachments> attachmentList = new List<Attachments>();
         if (agriculturalHoldingDto.Attachments != null && agriculturalHoldingDto.Attachments.Any())
@@ -74,7 +73,7 @@ public class AgriculturalHoldingsController : ControllerBase
             Address = agriculturalHoldingDto.Address,
             Notes = agriculturalHoldingDto.Notes,
             DataResourses = agriculturalHoldingDto.DataResourses,
-            ActualArea = agriculturalHoldingDto.ActualArea,
+            ActualAreaInSquareMeters = agriculturalHoldingDto.ActualAreaInSquareMeters,
             RegistedArea = agriculturalHoldingDto.RegistedArea,
             Houd = agriculturalHoldingDto.Houd,
             Association = agriculturalHoldingDto.Association,

@@ -20,18 +20,22 @@ namespace Arch.DTO
         public string? Address { get; set; }
         public string? Notes { get; set; }
         public string? DataResourses { get; set; }
-        public double? ActualArea { get; set; }
+        public int? Faddan { get; set; }
+        public int? Qirat { get; set; }
+        public int? Sahm { get; set; }
+        public double? ActualAreaInSquareMeters { get; set; }
         public double? RegistedArea { get; set; }
         public string? Houd { get; set; }
         public string? Association { get; set; }
-
-   
         [Required]
         public int MarkazId { get; set; }
 
         [Required]
         public int SourceOfOwnershipId { get; set; }
 
+
+
+        public int MadinaMaglasId { get; set; }
 
         public List<PropertyCoordinateDto>? PropertyCoordinates { get; set; }
 
