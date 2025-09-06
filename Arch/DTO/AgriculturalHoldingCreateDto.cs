@@ -33,9 +33,9 @@ namespace Arch.DTO
         [Required]
         public int SourceOfOwnershipId { get; set; }
 
+        public int? MadinaMaglasId { get; set; }
 
 
-        public int MadinaMaglasId { get; set; }
 
         public List<PropertyCoordinateDto>? PropertyCoordinates { get; set; }
 

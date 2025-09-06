@@ -32,6 +32,11 @@ namespace AmlakState.Models
 
         public double? RegistedArea { get; set; }
 
+        public int? MadinaMaglasId { get; set; }
+        [ForeignKey("MadinaMaglasId")]
+        public Madina_Maglas? Madina_Maglas { get; set; }
+
+
         public string? Houd 
             { get; set; }
 

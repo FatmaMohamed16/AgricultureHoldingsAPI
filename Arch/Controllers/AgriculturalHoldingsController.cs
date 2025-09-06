@@ -82,6 +82,8 @@ public class AgriculturalHoldingsController : ControllerBase
             Houd = agriculturalHoldingDto.Houd,
             Association = agriculturalHoldingDto.Association,
             MarkazId = agriculturalHoldingDto.MarkazId,
+
+            MadinaMaglasId= agriculturalHoldingDto.MadinaMaglasId,
             SourceOfOwnershipId = agriculturalHoldingDto.SourceOfOwnershipId,
             PropertyCoordinates = agriculturalHoldingDto.PropertyCoordinates?
                       .Select(pc => new PropertyCoordinate { X = pc.X, Y = pc.Y })

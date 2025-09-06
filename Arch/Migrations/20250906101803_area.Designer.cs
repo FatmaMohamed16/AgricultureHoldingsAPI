@@ -3,6 +3,7 @@ using AmlakState.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Arch.Migrations
 {
     [DbContext(typeof(ArchDbContext))]
-    partial class ArchDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250906101803_area")]
+    partial class area
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -59,9 +62,6 @@ namespace Arch.Migrations
                     b.Property<string>("HyazaNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("MadinaMaglasId")
-                        .HasColumnType("int");
-
                     b.Property<int>("MarkazId")
                         .HasColumnType("int");
 
@@ -101,8 +101,6 @@ namespace Arch.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("MadinaMaglasId");
 
                     b.HasIndex("MarkazId");
 
@@ -262,10 +260,6 @@ namespace Arch.Migrations
 
             modelBuilder.Entity("AmlakState.Models.AgriculturalHolding", b =>
                 {
-                    b.HasOne("Arch.Models.Madina_Maglas", "Madina_Maglas")
-                        .WithMany()
-                        .HasForeignKey("MadinaMaglasId");
-
                     b.HasOne("AmlakState.Models.Markaz", "Markaz")
                         .WithMany("AgriculturalHoldings")
                         .HasForeignKey("MarkazId")
@@ -275,8 +269,6 @@ namespace Arch.Migrations
                     b.HasOne("Arch.Models.SourceOfOwnership", "SourceOfOwnership")
                         .WithMany("AgriculturalHoldings")
                         .HasForeignKey("SourceOfOwnershipId");
-
-                    b.Navigation("Madina_Maglas");
 
                     b.Navigation("Markaz");
 

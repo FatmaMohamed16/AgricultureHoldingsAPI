@@ -62,7 +62,19 @@
                   "DataResourses": {
                     "type": "string"
                   },
-                  "ActualArea": {
+                  "Faddan": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Qirat": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Sahm": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ActualAreaInSquareMeters": {
                     "type": "number",
                     "format": "double"
                   },
@@ -81,6 +93,10 @@
                     "format": "int32"
                   },
                   "SourceOfOwnershipId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "MadinaMaglasId": {
                     "type": "integer",
                     "format": "int32"
                   },
@@ -139,7 +155,16 @@
                 "DataResourses": {
                   "style": "form"
                 },
-                "ActualArea": {
+                "Faddan": {
+                  "style": "form"
+                },
+                "Qirat": {
+                  "style": "form"
+                },
+                "Sahm": {
+                  "style": "form"
+                },
+                "ActualAreaInSquareMeters": {
                   "style": "form"
                 },
                 "RegistedArea": {
@@ -155,6 +180,9 @@
                   "style": "form"
                 },
                 "SourceOfOwnershipId": {
+                  "style": "form"
+                },
+                "MadinaMaglasId": {
                   "style": "form"
                 },
                 "PropertyCoordinates": {
@@ -212,33 +240,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/MarkazDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/MarkazDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/MarkazDTO"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -291,6 +293,44 @@
           }
         }
       }
+    },
+    "/api/SourceOfOwnership/GetAll": {
+      "get": {
+        "tags": [
+          "SourceOfOwnership"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -331,20 +371,6 @@
         },
         "additionalProperties": false
       },
-      "MarkazDTO": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "PropertyCoordinateDto": {
         "type": "object",
         "properties": {
@@ -355,6 +381,20 @@
           "y": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SourceOfOwnershipDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
