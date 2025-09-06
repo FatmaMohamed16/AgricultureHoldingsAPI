@@ -10,62 +10,34 @@ namespace AmlakState.Models
 
         [Required]
         public string Name { get; set; }
-
         [Required]
         public string NationalId { get; set; }
-
-
         public string? PhoneNumber { get; set; }
-
         public int? BuildingsCount { get; set; }
-
         public string? HyazaNumber { get; set; }
-
-
         public string? NorthernBorder { get; set; }
-
         public string? SouthernBorder { get; set; }
-
         public string? EasternBorder { get; set; }
-
         public string? WesternBorder { get; set; }
-
-
         public string? Description { get; set; }
-
-
         public int MarkazId { get; set; } 
         public Markaz? Markaz { get; set; }
-
         public string? Address { get; set; }
-
         public string? Notes  { get; set; }
-
         public string? DataResourses { get; set; }
-
-
-        public double? ActualArea { get; set; }
+        public int? Faddan { get; set; }
+        public int? Qirat { get; set; }
+        public int? Sahm { get; set; }
+        public double? ActualAreaInSquareMeters { get; set; }
 
         public double? RegistedArea { get; set; }
-
-
 
         public string? Houd 
             { get; set; }
 
-
         public string? Association { get; set; }
-
-        //public int UserId { get; set; }
-        //public User? User { get; set; }
-
-
         public ICollection<PropertyCoordinate> PropertyCoordinates { get; set; } = new List<PropertyCoordinate>();
-
-
         public ICollection<Attachments> Attachments { get; set; } = new List<Attachments>();
-
-
         public int? SourceOfOwnershipId { get; set; }
         [ForeignKey("SourceOfOwnershipId")]
         public SourceOfOwnership? SourceOfOwnership { get; set; }

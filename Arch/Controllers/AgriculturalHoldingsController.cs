@@ -19,6 +19,7 @@ public class AgriculturalHoldingsController : ControllerBase
         _hostingEnvironment = hostingEnvironment;
     }
 
+
     [HttpPost("create")]
     public async Task<IActionResult> Create([FromForm] AgriculturalHoldingCreateDto agriculturalHoldingDto)
     {
@@ -73,6 +74,9 @@ public class AgriculturalHoldingsController : ControllerBase
             Address = agriculturalHoldingDto.Address,
             Notes = agriculturalHoldingDto.Notes,
             DataResourses = agriculturalHoldingDto.DataResourses,
+            Faddan = agriculturalHoldingDto.Faddan,
+            Qirat = agriculturalHoldingDto.Qirat,
+            Sahm = agriculturalHoldingDto.Sahm,
             ActualAreaInSquareMeters = agriculturalHoldingDto.ActualAreaInSquareMeters,
             RegistedArea = agriculturalHoldingDto.RegistedArea,
             Houd = agriculturalHoldingDto.Houd,
