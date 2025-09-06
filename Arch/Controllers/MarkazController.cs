@@ -124,7 +124,7 @@ namespace Arch.Controllers
         public async Task<ActionResult<IEnumerable<MadinaMaglasDto>>> GetAllMadinaMaglas()
         {
             
-            var allVillageCouncils = await _context.Madina_Maglas
+            var AllMadinaMaglas = await _context.Madina_Maglas
                                               
                                                 .Select(mm => new MadinaMaglasDto
                                                 {
@@ -134,12 +134,12 @@ namespace Arch.Controllers
                                                 })
                                                 .ToListAsync();
 
-            if (!allVillageCouncils.Any())
+            if (!AllMadinaMaglas.Any())
             {
                 return NotFound("Not  found.");
             }
 
-            return Ok(allVillageCouncils);
+            return Ok(AllMadinaMaglas);
         }
     }
 }
