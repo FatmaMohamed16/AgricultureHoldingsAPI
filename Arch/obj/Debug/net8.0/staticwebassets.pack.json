@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\uploads\\0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg"
     },
     {
+      "Id": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg",
+      "PackagePath": "staticwebassets\\uploads\\34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg"
+    },
+    {
       "Id": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
       "PackagePath": "staticwebassets\\uploads\\5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
       "PackagePath": "staticwebassets\\uploads\\dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+    },
+    {
+      "Id": "C:\\Users\\fatma.m\\source\\repos\\Arch\\Arch\\wwwroot\\uploads\\ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Arch.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

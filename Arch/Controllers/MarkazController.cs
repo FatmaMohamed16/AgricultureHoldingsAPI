@@ -116,5 +116,30 @@ namespace Arch.Controllers
 
             return Ok(madinaMaglasList);
         }
+
+
+
+
+        [HttpGet("GetAllMadinaMaglas")]
+        public async Task<ActionResult<IEnumerable<MadinaMaglasDto>>> GetAllMadinaMaglas()
+        {
+            
+            var allVillageCouncils = await _context.Madina_Maglas
+                                              
+                                                .Select(mm => new MadinaMaglasDto
+                                                {
+                                                    ID = mm.ID,
+                                                    Name = mm.Name,
+                                                    MarkazId = mm.MarkazId
+                                                })
+                                                .ToListAsync();
+
+            if (!allVillageCouncils.Any())
+            {
+                return NotFound("Not  found.");
+            }
+
+            return Ok(allVillageCouncils);
+        }
     }
 }

@@ -1,0 +1,455 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Arch",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/AgriculturalHoldings/create": {
+      "post": {
+        "tags": [
+          "AgriculturalHoldings"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "MarkazId",
+                  "Name",
+                  "NationalId",
+                  "SourceOfOwnershipId"
+                ],
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "NationalId": {
+                    "type": "string"
+                  },
+                  "PhoneNumber": {
+                    "type": "string"
+                  },
+                  "BuildingsCount": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "HyazaNumber": {
+                    "type": "string"
+                  },
+                  "NorthernBorder": {
+                    "type": "string"
+                  },
+                  "SouthernBorder": {
+                    "type": "string"
+                  },
+                  "EasternBorder": {
+                    "type": "string"
+                  },
+                  "WesternBorder": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "Address": {
+                    "type": "string"
+                  },
+                  "Notes": {
+                    "type": "string"
+                  },
+                  "DataResourses": {
+                    "type": "string"
+                  },
+                  "Faddan": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Qirat": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Sahm": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ActualAreaInSquareMeters": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "RegistedArea": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Houd": {
+                    "type": "string"
+                  },
+                  "Association": {
+                    "type": "string"
+                  },
+                  "MarkazId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "SourceOfOwnershipId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "MadinaMaglasId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PropertyCoordinates": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/PropertyCoordinateDto"
+                    }
+                  },
+                  "Attachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "NationalId": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "BuildingsCount": {
+                  "style": "form"
+                },
+                "HyazaNumber": {
+                  "style": "form"
+                },
+                "NorthernBorder": {
+                  "style": "form"
+                },
+                "SouthernBorder": {
+                  "style": "form"
+                },
+                "EasternBorder": {
+                  "style": "form"
+                },
+                "WesternBorder": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "Address": {
+                  "style": "form"
+                },
+                "Notes": {
+                  "style": "form"
+                },
+                "DataResourses": {
+                  "style": "form"
+                },
+                "Faddan": {
+                  "style": "form"
+                },
+                "Qirat": {
+                  "style": "form"
+                },
+                "Sahm": {
+                  "style": "form"
+                },
+                "ActualAreaInSquareMeters": {
+                  "style": "form"
+                },
+                "RegistedArea": {
+                  "style": "form"
+                },
+                "Houd": {
+                  "style": "form"
+                },
+                "Association": {
+                  "style": "form"
+                },
+                "MarkazId": {
+                  "style": "form"
+                },
+                "SourceOfOwnershipId": {
+                  "style": "form"
+                },
+                "MadinaMaglasId": {
+                  "style": "form"
+                },
+                "PropertyCoordinates": {
+                  "style": "form"
+                },
+                "Attachments": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Markaz/GetAll": {
+      "get": {
+        "tags": [
+          "Markaz"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Markaz/GetMadinaMaglasByMarkazId/{markazId}": {
+      "get": {
+        "tags": [
+          "Markaz"
+        ],
+        "parameters": [
+          {
+            "name": "markazId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Markaz/GetAllMadinaMaglas": {
+      "get": {
+        "tags": [
+          "Markaz"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MadinaMaglasDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/SourceOfOwnership/GetAll": {
+      "get": {
+        "tags": [
+          "SourceOfOwnership"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SourceOfOwnershipDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LoginDto": {
+        "required": [
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MadinaMaglasDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "markazId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyCoordinateDto": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SourceOfOwnershipDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below.",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

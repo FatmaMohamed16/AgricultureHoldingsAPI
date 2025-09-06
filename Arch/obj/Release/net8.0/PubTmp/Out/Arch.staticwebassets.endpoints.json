@@ -1,0 +1,580 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.3mpppporl0.jpg",
+      "AssetFile": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:39:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3mpppporl0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "AssetFile": "uploads/0a2899a1-6074-4746-94a4-a2695f6bafaa_AI_BG.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4801"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:39:29 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-60qs+la0fLtp3h0dhWp2UESxWV3SlU5RJyYjp37NWLY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.7yc7n4cn9t.jpg",
+      "AssetFile": "uploads/34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTtJNii0XOnKNmITULZFAc55INxZeP9jEGk55svoDTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 12:09:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7yc7n4cn9t"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTtJNii0XOnKNmITULZFAc55INxZeP9jEGk55svoDTA="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg",
+      "AssetFile": "uploads/34938481-5621-4906-ac6a-974963acc260_826ee5c5-f828-4717-b990-8b2c8775db7f292460931508174385.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sTtJNii0XOnKNmITULZFAc55INxZeP9jEGk55svoDTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 12:09:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sTtJNii0XOnKNmITULZFAc55INxZeP9jEGk55svoDTA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "uploads/5afdc6af-e39b-4729-ae85-cb4450713296_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "uploads/5d5fabba-2ab9-493d-bcb0-27442a2dd4e6_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:25:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "AssetFile": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3161669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:36:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.st8vpvfaul.pdf",
+      "AssetFile": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3161669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:36:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st8vpvfaul"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cEPTekfxW+JOsCtwwkx7dcemzYruzR3AMPv1qJGEgsA="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c3e5ef75-2155-43c6-aeab-f4c9d93b6b53_EEEI_Essam-Tayseer-Hazem-Mokbel-Fares.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.846933kney.pdf",
+      "AssetFile": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:24:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "846933kney"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "AssetFile": "uploads/dd0b0994-00b3-4573-a732-42e64eb8922b_Midterm- Startups Entrpreneurship Ecosystem.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2614977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 13:24:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yKkRuz7z1sGRXnDRRPh7Di7avxYramom8raMKP1f3Pg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.17lj3auw0l.jpg",
+      "AssetFile": "uploads/ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DR2loRKjKvNVKSUoACvtfObF90kIRAS/RMWxfmzFRd8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 13:59:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17lj3auw0l"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DR2loRKjKvNVKSUoACvtfObF90kIRAS/RMWxfmzFRd8="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg",
+      "AssetFile": "uploads/ef4de5bd-1db9-49df-8ce8-7d5578829bec_17cf0b89-3801-4f34-8a87-49eaa3931b6a314186565811099072.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DR2loRKjKvNVKSUoACvtfObF90kIRAS/RMWxfmzFRd8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 13:59:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DR2loRKjKvNVKSUoACvtfObF90kIRAS/RMWxfmzFRd8="
+        }
+      ]
+    }
+  ]
+}

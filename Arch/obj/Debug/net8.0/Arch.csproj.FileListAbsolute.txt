@@ -1,11 +1,13 @@
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\appsettings.json
+C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.staticwebassets.runtime.json
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.staticwebassets.endpoints.json
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.exe
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.deps.json
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.runtimeconfig.json
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.pdb
+C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Humanizer.dll
@@ -172,5 +174,3 @@ C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\refint\Arch.dll
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.pdb
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\Arch.genruntimeconfig.cache
 C:\Users\fatma.m\source\repos\Arch\Arch\obj\Debug\net8.0\ref\Arch.dll
-C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\fatma.m\source\repos\Arch\Arch\bin\Debug\net8.0\Arch.staticwebassets.runtime.json
