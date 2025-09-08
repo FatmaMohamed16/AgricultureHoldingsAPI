@@ -52,23 +52,36 @@
         }
       }
     },
-    "/api/AgriculturalHoldings/create": {
-      "post": {
+    "/api/AgriculturalHoldings/update/{id}": {
+      "put": {
         "tags": [
           "AgriculturalHoldings"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
                 "required": [
-                  "MarkazId",
                   "Name",
-                  "NationalId",
-                  "SourceOfOwnershipId"
+                  "NationalId"
                 ],
                 "type": "object",
                 "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "Name": {
                     "type": "string"
                   },
@@ -100,6 +113,10 @@
                   "Description": {
                     "type": "string"
                   },
+                  "MarkazId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "Address": {
                     "type": "string"
                   },
@@ -129,40 +146,45 @@
                     "type": "number",
                     "format": "double"
                   },
+                  "MadinaMaglasId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "Houd": {
                     "type": "string"
                   },
                   "Association": {
                     "type": "string"
                   },
-                  "MarkazId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
                   "SourceOfOwnershipId": {
                     "type": "integer",
                     "format": "int32"
                   },
-                  "MadinaMaglasId": {
-                    "type": "integer",
-                    "format": "int32"
+                  "NewAttachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "ExistingAttachments": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
                   },
                   "PropertyCoordinates": {
                     "type": "array",
                     "items": {
                       "$ref": "#/components/schemas/PropertyCoordinateDto"
                     }
-                  },
-                  "Attachments": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "binary"
-                    }
                   }
                 }
               },
               "encoding": {
+                "Id": {
+                  "style": "form"
+                },
                 "Name": {
                   "style": "form"
                 },
@@ -193,6 +215,9 @@
                 "Description": {
                   "style": "form"
                 },
+                "MarkazId": {
+                  "style": "form"
+                },
                 "Address": {
                   "style": "form"
                 },
@@ -217,25 +242,25 @@
                 "RegistedArea": {
                   "style": "form"
                 },
+                "MadinaMaglasId": {
+                  "style": "form"
+                },
                 "Houd": {
                   "style": "form"
                 },
                 "Association": {
                   "style": "form"
                 },
-                "MarkazId": {
-                  "style": "form"
-                },
                 "SourceOfOwnershipId": {
                   "style": "form"
                 },
-                "MadinaMaglasId": {
+                "NewAttachments": {
+                  "style": "form"
+                },
+                "ExistingAttachments": {
                   "style": "form"
                 },
                 "PropertyCoordinates": {
-                  "style": "form"
-                },
-                "Attachments": {
                   "style": "form"
                 }
               }
@@ -249,8 +274,8 @@
         }
       }
     },
-    "/api/AgriculturalHoldings/update/{id}": {
-      "put": {
+    "/api/AgriculturalHoldings/GetById/{id}": {
+      "get": {
         "tags": [
           "AgriculturalHoldings"
         ],
@@ -265,198 +290,6 @@
             }
           }
         ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "required": [
-                  "Name"
-                ],
-                "type": "object",
-                "properties": {
-                  "Id": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Name": {
-                    "type": "string"
-                  },
-                  "PhoneNumber": {
-                    "type": "string"
-                  },
-                  "BuildingsCount": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "HyazaNumber": {
-                    "type": "string"
-                  },
-                  "NorthernBorder": {
-                    "type": "string"
-                  },
-                  "SouthernBorder": {
-                    "type": "string"
-                  },
-                  "EasternBorder": {
-                    "type": "string"
-                  },
-                  "WesternBorder": {
-                    "type": "string"
-                  },
-                  "Description": {
-                    "type": "string"
-                  },
-                  "MarkazId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Address": {
-                    "type": "string"
-                  },
-                  "Notes": {
-                    "type": "string"
-                  },
-                  "DataResourses": {
-                    "type": "string"
-                  },
-                  "Faddan": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Qirat": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Sahm": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "ActualAreaInSquareMeters": {
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "RegistedArea": {
-                    "type": "number",
-                    "format": "double"
-                  },
-                  "MadinaMaglasId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "Houd": {
-                    "type": "string"
-                  },
-                  "Association": {
-                    "type": "string"
-                  },
-                  "SourceOfOwnershipId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "AttachmentsToAdd": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "binary"
-                    }
-                  },
-                  "AttachmentsToDelete": {
-                    "type": "array",
-                    "items": {
-                      "type": "string"
-                    }
-                  },
-                  "PropertyCoordinates": {
-                    "type": "array",
-                    "items": {
-                      "$ref": "#/components/schemas/PropertyCoordinateDto"
-                    }
-                  }
-                }
-              },
-              "encoding": {
-                "Id": {
-                  "style": "form"
-                },
-                "Name": {
-                  "style": "form"
-                },
-                "PhoneNumber": {
-                  "style": "form"
-                },
-                "BuildingsCount": {
-                  "style": "form"
-                },
-                "HyazaNumber": {
-                  "style": "form"
-                },
-                "NorthernBorder": {
-                  "style": "form"
-                },
-                "SouthernBorder": {
-                  "style": "form"
-                },
-                "EasternBorder": {
-                  "style": "form"
-                },
-                "WesternBorder": {
-                  "style": "form"
-                },
-                "Description": {
-                  "style": "form"
-                },
-                "MarkazId": {
-                  "style": "form"
-                },
-                "Address": {
-                  "style": "form"
-                },
-                "Notes": {
-                  "style": "form"
-                },
-                "DataResourses": {
-                  "style": "form"
-                },
-                "Faddan": {
-                  "style": "form"
-                },
-                "Qirat": {
-                  "style": "form"
-                },
-                "Sahm": {
-                  "style": "form"
-                },
-                "ActualAreaInSquareMeters": {
-                  "style": "form"
-                },
-                "RegistedArea": {
-                  "style": "form"
-                },
-                "MadinaMaglasId": {
-                  "style": "form"
-                },
-                "Houd": {
-                  "style": "form"
-                },
-                "Association": {
-                  "style": "form"
-                },
-                "SourceOfOwnershipId": {
-                  "style": "form"
-                },
-                "AttachmentsToAdd": {
-                  "style": "form"
-                },
-                "AttachmentsToDelete": {
-                  "style": "form"
-                },
-                "PropertyCoordinates": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
         "responses": {
           "200": {
             "description": "OK"

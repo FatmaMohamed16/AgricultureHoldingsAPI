@@ -35,7 +35,9 @@ namespace AmlakState.Models
         public int? MadinaMaglasId { get; set; }
         [ForeignKey("MadinaMaglasId")]
         public Madina_Maglas? Madina_Maglas { get; set; }
-
+        public bool? ReceivingRequest { get; set; }
+        public bool? IsReviewed { get; set; }
+        public bool? IsDone { get; set; }
 
         public string? Houd 
             { get; set; }

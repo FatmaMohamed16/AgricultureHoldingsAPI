@@ -8,6 +8,10 @@ namespace Arch.DTO
 
         [Required]
         public string Name { get; set; }
+
+        [Required]
+        public string NationalId { get; set; }
+
         public string? PhoneNumber { get; set; }
         public int? BuildingsCount { get; set; }
         public string? HyazaNumber { get; set; }
@@ -30,8 +34,11 @@ namespace Arch.DTO
         public string? Association { get; set; }
         public int? SourceOfOwnershipId { get; set; }
 
-        public List<IFormFile>? AttachmentsToAdd { get; set; }
-        public List<string>? AttachmentsToDelete { get; set; }
+        public List<IFormFile>? NewAttachments { get; set; } = new List<IFormFile>();
+
+
+        public List<string>? ExistingAttachments { get; set; } = new List<string>();
+
 
         public List<PropertyCoordinateDto>? PropertyCoordinates { get; set; }
 

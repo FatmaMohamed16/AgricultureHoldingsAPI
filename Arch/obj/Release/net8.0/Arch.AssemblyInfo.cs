@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ba577345ed30eb26fed40b06452418321742847")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e62ab6f40a4cf42057c5653cd06137d70bd2378")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
